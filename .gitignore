@@ -2,3 +2,6 @@ _deps/*
 pico-sdk/*
 CMakeFiles/*
 generated/*
+CMakeCache.txt
+Makefile
+pico_flash_region.ld
