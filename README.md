@@ -2,7 +2,7 @@
 
 ```
 docker build . -t pico_sdk 
-docker run --rm  -it --name pico --mount type=bind,source=${PWD},target=/home/dev --entrypoint bash test
+docker run --rm  -it --name pico --mount type=bind,source=$(pwd),target=/home/dev --entrypoint bash pico_sdk
 ```
 
 
