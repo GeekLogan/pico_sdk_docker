@@ -5,3 +5,8 @@ generated/*
 CMakeCache.txt
 Makefile
 pico_flash_region.ld
+hello_world.uf2
+hello_world.elf.map
+hello_world.elf
+hello_world.dis
+hello_world.bin
